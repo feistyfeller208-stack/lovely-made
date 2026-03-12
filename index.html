@@ -1,40 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Assistant</title>
-    <!-- Use absolute path with your repo name -->
-    <link rel="stylesheet" href="/personal-assistant/www/css/style.css">
+    <title>My Page</title>
 </head>
 <body>
-    <div class="app">
-        <header>
-            <h1>Personal Assistant</h1>
-            <div class="status" id="status">Loading...</div>
-        </header>
-        <div class="results" id="results">
-            <p>Loading...</p>
-        </div>
-    </div>
-    
-    <!-- Absolute path for JS -->
-    <script src="/personal-assistant/www/js/app.js"></script>
-    
-    <script>
-        // Debug
-        console.log('Index loaded');
-        
-        // Check if app.js loaded
-        window.onload = function() {
-            if (typeof PersonalAssistant !== 'undefined') {
-                document.getElementById('results').innerHTML = '<p style="color:green">✓ app.js loaded!</p>';
-                PersonalAssistant.init();
-            } else {
-                document.getElementById('results').innerHTML = 
-                    '<p style="color:red">✗ app.js not loaded. Path: /personal-assistant/www/js/app.js</p>';
-            }
-        };
-    </script>
+    <h1>Hello World</h1>
+    <p>This is my page.</p>
 </body>
 </html>
