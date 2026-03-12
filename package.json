@@ -1,0 +1,21 @@
+{
+  "name": "personal-assistant",
+  "version": "1.0.0",
+  "description": "Private AI Assistant",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Ready for Median.co'"
+  },
+  "dependencies": {
+    "localforage": "^1.10.0",
+    "fuse.js": "^7.0.0",
+    "sql.js": "^1.8.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-file": {},
+      "cordova-plugin-contacts": {},
+      "cordova-plugin-local-notification": {}
+    }
+  }
+}
